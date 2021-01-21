@@ -63,11 +63,3 @@ rate : 주문량이 5건 이상일 시, 적립율 20% 이외 10%
 #Circuit Breaker
 
 Hystrix 를 이용한 Circuit Breaker
-
-
-
-#ConfigMap 적용
-
-![gate](https://user-images.githubusercontent.com/41769626/105149128-8c9efc80-5b46-11eb-95bc-6b47e3251642.PNG)
-
-![cm](https://user-images.githubusercontent.com/41769626/105134884-6ec79c80-5b32-11eb-9b66-ce58a839aea8.PNG)
