@@ -52,12 +52,6 @@ rate : 주문량이 5건 이상일 시, 적립율 20% 이외 10%
 ![포인트조회](https://user-images.githubusercontent.com/40571451/105219181-8128f100-5b99-11eb-86c5-94775a5adbe9.PNG)
 
 
-#장애 격리
-
-결제/포인트 취소는 Pub/Sub이기 때문에  포인트 적립취소가 서비스가 죽은 와중에도 정상 작동
-
-죽은 서비스를 다시 살릴 경우 포인트 적립취소 서비스가 다시 실행되면서 해당 프로세스가 진행된다.
-
 
 
 #Gateway
@@ -72,9 +66,7 @@ Hystrix 를 이용한 Circuit Breaker
 
 
 
-#ConfigMap/Presistence Volume
-
--- ConfigMap 적용
+#ConfigMap 적용
 
 ![gate](https://user-images.githubusercontent.com/41769626/105149128-8c9efc80-5b46-11eb-95bc-6b47e3251642.PNG)
 
